@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  /* Design Tokens */
+  --lzt-bg-page: rgb(12, 15, 14);
+  --lzt-bg-section: rgb(17, 22, 21);
+  --lzt-bg-sub: rgb(24, 30, 28);
+  --lzt-bg-component: rgb(30, 39, 37);
+  --lzt-bg-hover: rgb(36, 47, 43);
+
+  /* Borders */
+  --lzt-border: rgb(36, 47, 43);
+  --lzt-border-subtle: rgb(30, 39, 37);
+  --lzt-border-green: rgb(34, 142, 93);
+
+  /* Text Colors */
+  --lzt-text-primary: rgb(245, 245, 245);
+  --lzt-text-body: rgb(214, 214, 214);
+  --lzt-text-muted: rgb(140, 162, 154);
+  --lzt-text-dim: rgb(90, 105, 99);
+
+  /* Primary Button Gradient */
+  --lzt-btn-gradient: linear-gradient(88deg, rgb(32, 118, 78) 0%, rgb(42, 143, 92) 50%, rgb(32, 118, 78) 100%);
+  --lzt-btn-gradient-hover: linear-gradient(88deg, rgb(38, 136, 90) 0%, rgb(48, 162, 105) 50%, rgb(38, 136, 90) 100%);
+
+  /* Accent Greens */
+  --lzt-green-accent: #00ba78;
+  --lzt-green-quote: rgb(34, 142, 93);
+}
+
+@theme inline {
+  --color-lzt-page: var(--lzt-bg-page);
+  --color-lzt-section: var(--lzt-bg-section);
+  --color-lzt-sub: var(--lzt-bg-sub);
+  --color-lzt-component: var(--lzt-bg-component);
+  --color-lzt-hover: var(--lzt-bg-hover);
+
+  --color-lzt-border: var(--lzt-border);
+  --color-lzt-border-subtle: var(--lzt-border-subtle);
+
+  --color-lzt-text-primary: var(--lzt-text-primary);
+  --color-lzt-text-body: var(--lzt-text-body);
+  --color-lzt-text-muted: var(--lzt-text-muted);
+}
+
+html {
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+body {
+  overflow-x: clip;
+  max-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #0c0f0e;
+  color: #d6d6d6;
+  word-wrap: break-word;
+  line-height: 1.28;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-family: -apple-system, BlinkMacSystemFont, var(--font-inter), "Inter", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+}
+
+::selection {
+  background: #00ba78;
+  color: #000000;
+}
+
+

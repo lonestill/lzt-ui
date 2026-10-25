@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'lztIcons';
+  src: url('/fonts/font.ttf') format('truetype'),
+       url('https://nztcdn.com/static/font/font.ttf?v=1792874071') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Lolzteam Heart Reaction Pop */
+@keyframes likeBurstPop {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.45); }
+  60% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
+.icon-lzt-heart-empty::before {
+  font-family: 'lztIcons', sans-serif !important;
+  content: "\e03c";
+  display: inline-block;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-lzt-heart-filled::before {
+  font-family: 'lztIcons', sans-serif !important;
+  content: "\e048";
+  display: inline-block;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.anim-likeBurstPop {
+  animation: 0.4s cubic-bezier(0.2, 0.9, 0.3, 1.4) 0s 1 normal none running likeBurstPop;
+}
+
+/* Lolzteam XenForo Overlay & Alert Animations */
+@keyframes lztOverlayFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes lztOverlayFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes lztModalPopIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.92) translateY(-20px);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.01) translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+  }
+}
+
+@keyframes lztModalPopOut {
+  0% {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.94) translateY(-14px);
+  }
+}
+
+@keyframes lztErrorShake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  15% {
+    transform: translateX(-7px);
+  }
+  30% {
+    transform: translateX(6px);
+  }
+  45% {
+    transform: translateX(-5px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+  90% {
+    transform: translateX(1px);
+  }
+}
+
+.anim-lzt-backdrop-in {
+  animation: lztOverlayFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-lzt-backdrop-out {
+  animation: lztOverlayFadeOut 0.16s ease-in forwards;
+}
+
+.anim-lzt-modal-in {
+  animation: lztModalPopIn 0.25s cubic-bezier(0.2, 0.9, 0.3, 1.2) forwards;
+}
+
+.anim-lzt-modal-out {
+  animation: lztModalPopOut 0.16s cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+.anim-lzt-error-shake {
+  animation: lztErrorShake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+/* XenForo / Lolzteam .xenOverlay.timedMessage Animations */
+@keyframes lztTimedSlideInDown {
+  from {
+    transform: translateY(-24px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes lztTimedSlideOutUp {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-24px);
+    opacity: 0;
+  }
+}
+
+/* XenForo #StackAlerts Animations */
+@keyframes lztStackSlideIn {
+  from {
+    transform: translate3d(-24px, 10px, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes lztStackSlideOut {
+  from {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(-24px, 0, 0);
+    opacity: 0;
+  }
+}
+
+.anim-timed-in {
+  animation: lztTimedSlideInDown 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-timed-out {
+  animation: lztTimedSlideOutUp 0.18s cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+.anim-stack-in {
+  animation: lztStackSlideIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-stack-out {
+  animation: lztStackSlideOut 0.16s cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+/* XenForo .Menu Dropdown Animation */
+@keyframes lztMenuFadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.anim-lzt-dropdown-in {
+  animation: lztMenuFadeDown 0.12s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

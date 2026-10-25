@@ -1,0 +1,12 @@
+{
+  "$schema": "https://lzt-ui.vercel.app/schema.json",
+  "style": "default",
+  "tailwind": {
+    "css": "src/app/globals.css"
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui"
+  }
+}
