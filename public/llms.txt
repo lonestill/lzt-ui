@@ -1,0 +1,61 @@
+# lzt/ui
+
+> Atomic XenForo 2.x and Lolzteam UI components and CLI for React, Next.js, Vite, and Tailwind CSS.
+
+lzt/ui is an open-source, shadcn-like component distribution system for building Lolzteam / XenForo-styled user interfaces. Instead of a monolithic runtime library, source code for atomic TypeScript components is copied directly into the consuming project (`src/components/ui/`).
+
+- Live documentation & interactive showcase: https://lzt-ui.vercel.app
+- GitHub Repository: https://github.com/lonestill/lzt-ui
+- NPM Package: https://www.npmjs.com/package/@scopelzt/lzt-ui
+- Full Documentation & Code Context: https://lzt-ui.vercel.app/llms-full.txt
+
+## CLI Installation & Usage
+
+- Init project (injects tokens into CSS, creates `src/lib/utils.ts`, creates `components.json`):
+  `npx @scopelzt/lzt-ui init`
+- Add single or multiple components:
+  `npx @scopelzt/lzt-ui add button dialog table`
+- Add all 15 components:
+  `npx @scopelzt/lzt-ui add --all`
+- List available components:
+  `npx @scopelzt/lzt-ui list`
+
+## Core Design Tokens & Colors
+
+- Page background: `rgb(12, 15, 14)` (`--lzt-bg-page`)
+- Section background: `rgb(17, 22, 21)` (`--lzt-bg-section`)
+- Component background: `rgb(30, 39, 37)` (`--lzt-bg-component`)
+- Sub-element background: `rgb(24, 30, 28)` (`--lzt-bg-sub`)
+- Hover background: `rgb(36, 47, 43)` (`--lzt-bg-hover`)
+- Primary border: `rgb(36, 47, 43)` (`--lzt-border`)
+- Subtle border: `rgb(30, 39, 37)` (`--lzt-border-subtle`)
+- Accent green: `#00ba78` / `rgb(34, 142, 93)` (`--lzt-green-accent`)
+- Primary button gradient: `linear-gradient(88deg, rgb(32, 118, 78) 0%, rgb(42, 143, 92) 50%, rgb(32, 118, 78) 100%)`
+- Primary text: `rgb(245, 245, 245)` (`--lzt-text-primary`)
+- Body text: `rgb(214, 214, 214)` (`--lzt-text-body`)
+- Muted text: `rgb(140, 162, 154)` (`--lzt-text-muted`)
+- Dim text: `rgb(90, 105, 99)` (`--lzt-text-dim`)
+
+## Components Reference
+
+- [Button](https://lzt-ui.vercel.app/docs/components/button): XenForo buttons (`.button`). Variants: `primary` (green gradient), `secondary` (dark outline), `default`, `danger`, `ghost`, `more`. Props: `variant`, `size` (`default` 34px, `sm` 28px, `lg` 38px, `icon`), `isLoading`, `asChild`.
+- [Table](https://lzt-ui.vercel.app/docs/components/table): Data table (`.dataTable`). Includes `Table`, `TableHeader`, `TableBody`, `TableRow`, `TableHead`, `TableCell`. Authentic row hover, zebra striping, market row formatting.
+- [Dialog](https://lzt-ui.vercel.app/docs/components/dialog): Modal dialogs (`.xenOverlay`, `.formOverlay`). Includes `Dialog`, `DialogTrigger`, `DialogContent`, `DialogHeader`, `DialogTitle`, `DialogDescription`, `DialogBody`, `DialogFooter`, `DialogClose`. Default 20px padding via `DialogBody`.
+- [Toast](https://lzt-ui.vercel.app/docs/components/toast): Stack notification queue (`#StackAlerts`) fixed to bottom-left, plus `timedMessage` popups. Exports `ToastProvider`, `useToast` (`toast`, `stackAlert`, `timedMessage`).
+- [Alert](https://lzt-ui.vercel.app/docs/components/alert): Banner alerts (`.importantMessage`) and error modals (`AlertModal`). Variants: `warning` (amber), `error` (dark red), `success` (green), `default`.
+- [Badge](https://lzt-ui.vercel.app/docs/components/badge): User banners (`variant="banner"`) and tags (`variant="tag"`). Groups: `admin`, `developer`, `curator`, `resident`, `expert`, `guru`, `ai`, `greatest`, `legend`, etc.
+- [UniqText](https://lzt-ui.vercel.app/docs/components/uniq): Forum nickname animations with neon shadows, glow, and gradients. Presets: `extasy`, `scope`, `raysmorgan`, `flame`, `gold`, `greatest`, `zelenka`, `uniq`. Props: `preset`, `glow`.
+- [DropdownMenu](https://lzt-ui.vercel.app/docs/components/dropdown-menu): Contextual dropdowns and XenForo visitor menu. Includes `DropdownMenu`, `DropdownMenuTrigger`, `DropdownMenuContent`, `DropdownMenuItem`, `DottesTrigger`, `AccountTrigger`, `AccountMenu`.
+- [Input](https://lzt-ui.vercel.app/docs/components/input): Text fields (`.textCtrl`). Includes `Input` (default 34px, extraLarge 38px), `Textarea`, `InputRelative`, `InputRelativeIcon`.
+- [Select](https://lzt-ui.vercel.app/docs/components/select): Custom Chosen-style select dropdown. Props: `options`, `value`, `defaultValue`, `onChange`, `searchable`, `size` (default 34px, extraLarge 38px).
+- [Checkbox](https://lzt-ui.vercel.app/docs/components/checkbox): XenForo custom checkboxes and radio buttons. Includes `Checkbox`, `Radio`, `CheckboxItem`, `CheckboxRow`.
+- [Tabs](https://lzt-ui.vercel.app/docs/components/tabs): Forum tabs (`.tabs`) with animated sliding green indicator line. Includes `Tabs`, `TabsList`, `TabsTrigger`, `TabsContent`. Variants: `forum`, `subTabs`, `pill`.
+- [Pagination](https://lzt-ui.vercel.app/docs/components/pagination): Page navigation bar (`.pageNav`). Props: `currentPage`, `totalPages`, `onPageChange`, `siblingCount`, `showTitle`.
+- [Tooltip](https://lzt-ui.vercel.app/docs/components/tooltip): Dark tooltips with pointer arrow. Props: `content`, `placement` (`top`, `bottom`, `left`, `right`), `variant` (`default`, `dark`, `darkGreen`, `statusTip`), `delay`.
+- [Avatar](https://lzt-ui.vercel.app/docs/components/avatar): User avatar with online indicator dot and group ring outline. Props: `src`, `fallback`, `size` (`mention`, `sm` 32px, `default` 32px, `lg` 66px, `xl` 96px), `isOnline`, `status`.
+
+## Optional / Full Documentation
+
+- Full Design Tokens & CSS Variables: https://lzt-ui.vercel.app/docs/brand
+- Component Documentation Index: https://lzt-ui.vercel.app/docs
+- Full LLM Context: https://lzt-ui.vercel.app/llms-full.txt
