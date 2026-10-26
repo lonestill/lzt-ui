@@ -6,28 +6,28 @@ import { MoreHorizontal, Copy, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "button inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors duration-150 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 select-none cursor-pointer",
+  "button inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-semibold transition-all duration-150 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 select-none cursor-pointer active:scale-[0.98]",
   {
     variants: {
       variant: {
         primary:
-          "primary bg-[linear-gradient(88deg,rgb(32,118,78)_0%,rgb(42,143,92)_50%,rgb(32,118,78)_100%)] hover:bg-[linear-gradient(88deg,rgb(38,136,90)_0%,rgb(48,162,105)_50%,rgb(38,136,90)_100%)] text-[rgb(245,245,245)] border-0 font-medium rounded-[10px] outline -outline-offset-1 outline-[color-mix(in_srgb,rgb(245,245,245)_16%,transparent_84%)]",
+          "primary bg-[linear-gradient(88deg,rgb(32,118,78)_0%,rgb(42,143,92)_50%,rgb(32,118,78)_100%)] hover:bg-[linear-gradient(88deg,rgb(38,136,90)_0%,rgb(48,162,105)_50%,rgb(38,136,90)_100%)] text-[rgb(245,245,245)] border-0 font-semibold rounded-[6px] outline -outline-offset-1 outline-[color-mix(in_srgb,rgb(245,245,245)_16%,transparent_84%)] shadow-[inset_0_1px_0_rgba(255,255,255,0.12)]",
         default:
-          "bg-[rgb(30,39,37)] hover:bg-[rgb(36,47,43)] text-[rgb(214,214,214)] hover:text-white border-0 font-medium rounded-[10px]",
+          "bg-[rgb(30,39,37)] hover:bg-[rgb(36,47,43)] text-[rgb(214,214,214)] hover:text-white border border-[rgb(36,47,43)] font-semibold rounded-[6px]",
         secondary:
-          "secondary bg-[rgb(36,47,43)] hover:bg-[rgb(44,58,53)] text-[rgb(214,214,214)] hover:text-white border-0 font-medium rounded-[10px] outline -outline-offset-1 outline-[color-mix(in_srgb,rgb(140,162,154)_40%,transparent_60%)]",
+          "secondary bg-[rgb(36,47,43)] hover:bg-[rgb(44,58,53)] text-[rgb(214,214,214)] hover:text-white border-0 font-semibold rounded-[6px] outline -outline-offset-1 outline-[color-mix(in_srgb,rgb(140,162,154)_40%,transparent_60%)]",
         danger:
-          "danger bg-[rgba(241,56,56,0.12)] hover:bg-[rgba(241,56,56,0.2)] text-[rgb(241,56,56)] border border-[rgba(241,56,56,0.3)] rounded-[10px]",
+          "danger bg-[rgba(241,56,56,0.12)] hover:bg-[rgba(241,56,56,0.2)] text-[rgb(241,56,56)] border border-[rgba(241,56,56,0.3)] rounded-[6px] font-semibold",
         ghost:
-          "text-[rgb(214,214,214)] hover:bg-[rgb(30,39,37)] hover:text-white rounded-[10px]",
+          "text-[rgb(214,214,214)] hover:bg-[rgb(30,39,37)] hover:text-white rounded-[6px] font-medium",
         more:
-          "dottesStyle buttonStyle bg-[rgb(30,39,37)] hover:bg-[rgb(36,47,43)] text-[rgb(214,214,214)] hover:text-white border-0 rounded-[10px] p-0 w-[36px] h-[34px] outline -outline-offset-1 outline-[rgb(36,47,43)]",
+          "dottesStyle buttonStyle bg-[rgb(30,39,37)] hover:bg-[rgb(36,47,43)] text-[rgb(214,214,214)] hover:text-white border-0 rounded-[6px] p-0 w-[34px] h-[34px] outline -outline-offset-1 outline-[rgb(36,47,43)]",
       },
       size: {
-        default: "h-[34px] px-[15px] text-sm",
-        sm: "h-[28px] px-3 text-xs rounded-[8px]",
-        lg: "h-[38px] px-[15px] text-sm rounded-[10px]",
-        icon: "h-[34px] w-[34px] rounded-[10px] p-0",
+        default: "h-[34px] px-[14px] text-[13px]",
+        sm: "h-[28px] px-2.5 text-xs rounded-[5px]",
+        lg: "h-[38px] px-[16px] text-sm rounded-[6px]",
+        icon: "h-[34px] w-[34px] rounded-[6px] p-0",
       },
     },
     defaultVariants: {

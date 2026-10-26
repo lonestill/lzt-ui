@@ -126,7 +126,7 @@ export default function ButtonDocPage() {
 </div>`;
 
   const copyButtonCode = `<div className="flex items-center gap-3 p-3 rounded-[10px] bg-[rgb(24,30,28)] border border-[rgb(36,47,43)]">
-  <span className="font-mono text-sm text-[rgb(214,214,214)]">steam_user_48102</span>
+  <span className="text-sm font-medium text-[rgb(214,214,214)]">steam_user_48102</span>
   <CopyButton text="steam_user_48102" />
 </div>`;
 
@@ -203,7 +203,7 @@ export default function ButtonDocPage() {
         <ComponentPreview code={marketItemBarCode}>
           <div className="w-full rounded-[12px] bg-[rgb(17,22,21)] border border-[rgb(30,39,37)] p-4 flex flex-wrap items-center justify-between gap-4 shadow-xl">
             <div>
-              <div className="font-mono font-bold text-lg text-white">499 ₽</div>
+              <div className="font-bold text-lg text-white tabular-nums">499 ₽</div>
               <div className="text-xs text-[rgb(140,162,154)]">Гарантия 24 часа • Автоматическая выдача</div>
             </div>
 
@@ -263,7 +263,7 @@ export default function ButtonDocPage() {
         </h2>
         <ComponentPreview code={copyButtonCode}>
           <div className="flex items-center gap-3 p-3 rounded-[10px] bg-[rgb(24,30,28)] border border-[rgb(36,47,43)]">
-            <span className="font-mono text-sm text-[rgb(214,214,214)]">steam_user_48102</span>
+            <span className="text-sm font-medium text-[rgb(214,214,214)]">steam_user_48102</span>
             <CopyButton text="steam_user_48102" />
           </div>
         </ComponentPreview>

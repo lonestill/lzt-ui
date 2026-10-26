@@ -77,7 +77,7 @@ export default function UniqDocPage() {
     <Badge variant="banner" group="admin">Администратор</Badge>
     <div className="text-xs text-[rgb(140,162,154)] pt-2 border-t border-[rgb(30,39,37)] flex justify-between">
       <span>Симпатии:</span>
-      <span className="font-mono text-[#00ba78] font-bold">58 864</span>
+      <span className="font-bold text-[#00ba78] tabular-nums">58 864</span>
     </div>
   </div>
 
@@ -102,7 +102,7 @@ export default function UniqDocPage() {
     <Badge variant="banner" group="uniq">Уник</Badge>
     <div className="text-xs text-[rgb(140,162,154)] pt-2 border-t border-[rgb(30,39,37)] flex justify-between">
       <span>Симпатии:</span>
-      <span className="font-mono text-[#00ba78] font-bold">1 443</span>
+      <span className="font-bold text-[#00ba78] tabular-nums">1 443</span>
     </div>
   </div>
 
@@ -126,7 +126,7 @@ export default function UniqDocPage() {
     <Badge variant="banner" group="developer">Разработчик</Badge>
     <div className="text-xs text-[rgb(140,162,154)] pt-2 border-t border-[rgb(30,39,37)] flex justify-between">
       <span>Симпатии:</span>
-      <span className="font-mono text-[#00ba78] font-bold">2 269</span>
+      <span className="font-bold text-[#00ba78] tabular-nums">2 269</span>
     </div>
   </div>
 </div>`;
@@ -178,7 +178,7 @@ export default function UniqDocPage() {
               <Badge variant="banner" group="admin">Администратор</Badge>
               <div className="text-xs text-[rgb(140,162,154)] pt-2 border-t border-[rgb(30,39,37)] flex justify-between">
                 <span>Симпатии:</span>
-                <span className="font-mono text-[#00ba78] font-bold">58 864</span>
+                <span className="font-bold text-[#00ba78] tabular-nums">58 864</span>
               </div>
             </div>
 
@@ -203,7 +203,7 @@ export default function UniqDocPage() {
               <Badge variant="banner" group="headDesigner">Главный дизайнер</Badge>
               <div className="text-xs text-[rgb(140,162,154)] pt-2 border-t border-[rgb(30,39,37)] flex justify-between">
                 <span>Симпатии:</span>
-                <span className="font-mono text-[#00ba78] font-bold">18 942</span>
+                <span className="font-bold text-[#00ba78] tabular-nums">18 942</span>
               </div>
             </div>
 
@@ -228,7 +228,7 @@ export default function UniqDocPage() {
               <Badge variant="banner" group="uniq">Уник</Badge>
               <div className="text-xs text-[rgb(140,162,154)] pt-2 border-t border-[rgb(30,39,37)] flex justify-between">
                 <span>Симпатии:</span>
-                <span className="font-mono text-[#00ba78] font-bold">1 443</span>
+                <span className="font-bold text-[#00ba78] tabular-nums">1 443</span>
               </div>
             </div>
           </div>

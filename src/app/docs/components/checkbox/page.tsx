@@ -158,7 +158,7 @@ export default function CheckboxDocPage() {
                   Telegram Session + TData • Продавец: <span className="text-white font-medium">AutoRegGod</span>
                 </p>
               </div>
-              <span className="font-mono font-bold text-[#00ba78] text-base">89 ₽</span>
+              <span className="font-bold text-[#00ba78] text-base tabular-nums">89 ₽</span>
             </div>
 
             <div className="space-y-3.5">

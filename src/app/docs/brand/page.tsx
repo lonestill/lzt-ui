@@ -528,7 +528,7 @@ export default function BrandPage() {
               key={index}
               className="space-y-2.5 pb-6 border-b border-[rgb(30,39,37)] last:border-b-0 last:pb-0"
             >
-              <div className="text-[18px] text-[rgb(214,214,214)] font-mono">
+              <div className="text-[18px] text-[rgb(214,214,214)] font-semibold tabular-nums">
                 {banner.size}
               </div>
 

@@ -73,7 +73,7 @@ export default function AboutPage() {
                 <UniqText preset="scope" href="https://lolz.team/scope/" className="font-semibold text-xs">
                   scope
                 </UniqText>
-                <span className="text-[10px] text-[#00ba78] font-mono">maintainer</span>
+                <span className="text-[10px] text-[#00ba78] font-medium">maintainer</span>
               </div>
               <div className="text-[10px] text-[rgb(140,162,154)] mt-0.5">Создатель lzt/ui</div>
             </div>
@@ -151,12 +151,12 @@ export default function AboutPage() {
         </a>
         <span>•</span>
         <a
-          href="https://www.npmjs.com/package/lzt-ui"
+          href="https://www.npmjs.com/package/@scopelzt/lzt-ui"
           target="_blank"
           rel="noreferrer"
           className="hover:text-white transition inline-flex items-center gap-1"
         >
-          <span>npm (v1.1.0)</span>
+          <span>npm (v1.1.3)</span>
           <ExternalLink className="w-3 h-3 opacity-60" />
         </a>
       </div>

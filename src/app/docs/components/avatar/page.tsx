@@ -89,7 +89,7 @@ export default function AvatarDocPage() {
       fallback="SC"
       size="mention"
     />
-    <div className="text-[10px] text-[rgb(140,162,154)] font-mono">16px</div>
+    <div className="text-[10px] text-[rgb(140,162,154)] font-medium tabular-nums">16px</div>
   </div>
 
   <div className="text-center space-y-1.5">
@@ -99,7 +99,7 @@ export default function AvatarDocPage() {
       size="s"
       isOnline
     />
-    <div className="text-[10px] text-[rgb(140,162,154)] font-mono">32px (s)</div>
+    <div className="text-[10px] text-[rgb(140,162,154)] font-medium tabular-nums">32px (s)</div>
   </div>
 
   <div className="text-center space-y-1.5">
@@ -109,7 +109,7 @@ export default function AvatarDocPage() {
       size="m"
       isOnline
     />
-    <div className="text-[10px] text-[rgb(140,162,154)] font-mono">66px (m)</div>
+    <div className="text-[10px] text-[rgb(140,162,154)] font-medium tabular-nums">66px (m)</div>
   </div>
 
   <div className="text-center space-y-1.5">
@@ -119,7 +119,7 @@ export default function AvatarDocPage() {
       size="l"
       isOnline
     />
-    <div className="text-[10px] text-[rgb(140,162,154)] font-mono">96px (l)</div>
+    <div className="text-[10px] text-[rgb(140,162,154)] font-medium tabular-nums">96px (l)</div>
   </div>
 </div>`;
 
@@ -192,7 +192,7 @@ export default function AvatarDocPage() {
                 fallback="SC"
                 size="mention"
               />
-              <div className="text-[10px] text-[rgb(140,162,154)] font-mono">16px</div>
+              <div className="text-[10px] text-[rgb(140,162,154)] font-medium tabular-nums">16px</div>
             </div>
 
             <div className="text-center space-y-1.5">
@@ -202,7 +202,7 @@ export default function AvatarDocPage() {
                 size="s"
                 isOnline
               />
-              <div className="text-[10px] text-[rgb(140,162,154)] font-mono">32px (s)</div>
+              <div className="text-[10px] text-[rgb(140,162,154)] font-medium tabular-nums">32px (s)</div>
             </div>
 
             <div className="text-center space-y-1.5">
@@ -212,7 +212,7 @@ export default function AvatarDocPage() {
                 size="m"
                 isOnline
               />
-              <div className="text-[10px] text-[rgb(140,162,154)] font-mono">66px (m)</div>
+              <div className="text-[10px] text-[rgb(140,162,154)] font-medium tabular-nums">66px (m)</div>
             </div>
 
             <div className="text-center space-y-1.5">
@@ -222,7 +222,7 @@ export default function AvatarDocPage() {
                 size="l"
                 isOnline
               />
-              <div className="text-[10px] text-[rgb(140,162,154)] font-mono">96px (l)</div>
+              <div className="text-[10px] text-[rgb(140,162,154)] font-medium tabular-nums">96px (l)</div>
             </div>
           </div>
         </ComponentPreview>

@@ -132,7 +132,7 @@ export default function SelectDocPage() {
       <div className="flex items-center gap-1.5 text-xs">
         <Coins className="w-3.5 h-3.5 text-[#00ba78]" />
         <span className="text-[rgb(140,162,154)]">Баланс:</span>
-        <span className="font-mono font-bold text-white">1 337 ₽</span>
+        <span className="font-bold text-white tabular-nums">1 337 ₽</span>
       </div>
     </div>
 
@@ -174,7 +174,7 @@ export default function SelectDocPage() {
   </div>
 
   <div className="text-xs text-[rgb(140,162,154)]">
-    Найдено: <strong className="text-white font-mono">14 820</strong> аккаунтов
+    Найдено: <strong className="text-white font-semibold">14 820</strong> аккаунтов
   </div>
 </div>`;
 
@@ -211,7 +211,7 @@ export default function SelectDocPage() {
                 <div className="flex items-center gap-1.5 text-xs">
                   <Coins className="w-3.5 h-3.5 text-[#00ba78]" />
                   <span className="text-[rgb(140,162,154)]">Баланс:</span>
-                  <span className="font-mono font-bold text-[rgb(245,245,245)]">1 337 ₽</span>
+                  <span className="font-bold text-[rgb(245,245,245)] tabular-nums">1 337 ₽</span>
                   <button
                     type="button"
                     className="w-5 h-5 rounded-[5px] bg-[#00ba78]/20 hover:bg-[#00ba78]/30 text-[#00ba78] flex items-center justify-center transition ml-1"
@@ -283,14 +283,14 @@ export default function SelectDocPage() {
               </div>
 
               <div className="text-xs text-[rgb(140,162,154)] pt-1 sm:pt-0">
-                Найдено: <strong className="text-white font-mono">14 820</strong> аккаунтов
+                Найдено: <strong className="text-white font-semibold">14 820</strong> аккаунтов
               </div>
             </div>
 
             {/* Account row below to verify layering */}
             <div className="rounded-[12px] bg-[rgb(17,22,21)] border border-[rgb(30,39,37)] p-3 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4 hover:border-[rgb(44,58,53)] transition">
               <div className="flex items-center gap-3 min-w-0">
-                <div className="w-9 h-9 rounded-[8px] bg-[rgb(24,30,28)] border border-[rgb(36,47,43)] flex items-center justify-center font-mono font-bold text-xs text-[#00ba78] shrink-0">
+                <div className="w-9 h-9 rounded-[8px] bg-[rgb(24,30,28)] border border-[rgb(36,47,43)] flex items-center justify-center font-bold text-xs text-[#00ba78] shrink-0">
                   STEAM
                 </div>
                 <div className="min-w-0">
@@ -309,7 +309,7 @@ export default function SelectDocPage() {
 
               <div className="flex items-center justify-between sm:justify-end gap-3 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-[rgb(30,39,37)]">
                 <div className="text-left sm:text-right">
-                  <div className="font-mono font-bold text-base text-white">499 ₽</div>
+                  <div className="font-bold text-base text-white tabular-nums">499 ₽</div>
                   <div className="text-[10px] text-[rgb(140,162,154)]">с баланса</div>
                 </div>
                 <Button variant="primary" size="default">

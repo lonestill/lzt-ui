@@ -5,7 +5,7 @@ const Table = React.forwardRef<
   HTMLTableElement,
   React.HTMLAttributes<HTMLTableElement>
 >(({ className, ...props }, ref) => (
-  <div className="dataTableWrapper relative w-full overflow-auto rounded-[10px] border border-[rgb(30,39,37)] bg-[rgb(17,22,21)] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+  <div className="dataTableWrapper relative w-full overflow-auto rounded-[8px] border border-[rgb(30,39,37)] bg-[rgb(17,22,21)] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
     <table
       ref={ref}
       className={cn("dataTable w-full caption-bottom text-left", className)}

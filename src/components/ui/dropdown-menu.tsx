@@ -312,7 +312,7 @@ export function AccountTrigger({
       <b className="accountUsername text-sm font-bold text-[#0fdc91] leading-none">
         {username}
       </b>
-      <span className="balanceLabel text-xs text-[rgb(140,162,154)] font-mono leading-none flex items-center gap-0.5">
+      <span className="balanceLabel text-xs text-[rgb(140,162,154)] tabular-nums font-semibold leading-none flex items-center gap-0.5">
         <span>{balance}</span>
         <span>₽</span>
       </span>
@@ -478,7 +478,7 @@ export function AccountMenu({
           <div className="amountBlock flex flex-col gap-1.5 w-full">
             <span className="muted text-xs text-[rgb(140,162,154)]">Баланс</span>
             <div className="amount flex items-center justify-between w-full">
-              <div className="balanceLabel balanceAmount flex items-baseline gap-1 font-mono text-xl font-semibold leading-none">
+              <div className="balanceLabel balanceAmount flex items-baseline gap-1 tabular-nums text-xl font-bold leading-none">
                 <span
                   className={cn(
                     "balanceValue text-white transition-all duration-200",
@@ -783,7 +783,7 @@ export function AccountMenu({
                     <span className="username text-sm font-bold text-[rgb(245,245,245)] truncate">
                       {user.secondaryAccount.name}
                     </span>
-                    <div className="amountBlock flex items-center gap-1 font-mono text-xs text-[rgb(140,162,154)] shrink-0">
+                    <div className="amountBlock flex items-center gap-1 tabular-nums text-xs text-[rgb(140,162,154)] font-semibold shrink-0">
                       <span>{user.secondaryAccount.balance}</span>
                       <svg
                         width="16"

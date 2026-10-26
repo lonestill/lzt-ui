@@ -11,7 +11,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
       <input
         type={type}
         className={cn(
-          "textCtrl w-full rounded-[10px] border-0 bg-[rgb(24,30,28)] px-[12px] text-[14px] text-[rgb(214,214,214)] placeholder:text-[rgb(90,105,99)] outline-none transition-all duration-150 focus:shadow-[0_0_0_2px_rgb(46,97,74)] disabled:cursor-not-allowed disabled:opacity-50",
+          "textCtrl w-full rounded-[6px] border border-[rgb(36,47,43)] bg-[rgb(24,30,28)] px-[12px] text-[13px] text-[rgb(214,214,214)] placeholder:text-[rgb(90,105,99)] outline-none transition-all duration-150 focus:border-[#228e5d] focus:shadow-[0_0_0_1px_#228e5d] disabled:cursor-not-allowed disabled:opacity-50",
           inputSize === "default" ? "h-[34px] leading-[34px]" : "extraLarge h-[38px] min-h-[38px] leading-[38px] px-[14px]",
           className
         )}
@@ -33,7 +33,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
     return (
       <textarea
         className={cn(
-          "textCtrl w-full rounded-[10px] border-0 bg-[rgb(24,30,28)] p-[10px] text-[14px] text-[rgb(214,214,214)] placeholder:text-[rgb(90,105,99)] outline-none transition-all duration-150 focus:shadow-[0_0_0_2px_rgb(46,97,74)] disabled:cursor-not-allowed disabled:opacity-50 min-h-[72px] resize-y leading-relaxed",
+          "textCtrl w-full rounded-[6px] border border-[rgb(36,47,43)] bg-[rgb(24,30,28)] p-[10px] text-[13px] text-[rgb(214,214,214)] placeholder:text-[rgb(90,105,99)] outline-none transition-all duration-150 focus:border-[#228e5d] focus:shadow-[0_0_0_1px_#228e5d] disabled:cursor-not-allowed disabled:opacity-50 min-h-[72px] resize-y leading-relaxed",
           elastic && "Elastic",
           className
         )}

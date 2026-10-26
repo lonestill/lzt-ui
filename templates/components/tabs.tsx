@@ -148,7 +148,7 @@ export function TabsTrigger({
           {badge !== undefined && (
             <span
               className={cn(
-                "rounded-full px-1.5 py-0.2 text-[10px] font-bold font-mono",
+                "rounded-full px-1.5 py-0.5 text-[10px] font-semibold tabular-nums",
                 isActive
                   ? "bg-[#00ba78]/20 text-[#00ba78]"
                   : "bg-[rgb(36,47,43)] text-[rgb(140,162,154)]"
@@ -183,7 +183,7 @@ export function TabsTrigger({
         {badge !== undefined && (
           <span
             className={cn(
-              "rounded-full px-1.5 py-0.5 text-[11px] font-bold font-mono leading-none",
+              "rounded-full px-1.5 py-0.5 text-[11px] font-semibold tabular-nums leading-none",
               isActive
                 ? "bg-[#00ba78]/20 text-[#00ba78]"
                 : "bg-[rgb(30,39,37)] text-[rgb(140,162,154)]"

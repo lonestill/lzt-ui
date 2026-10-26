@@ -95,8 +95,8 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
                 GitHub
               </a>
               <div className="h-4 w-px bg-[rgb(30,39,37)] hidden sm:block" />
-              <span className="text-[11px] font-mono text-[#00ba78] bg-[#00ba78]/10 px-2 py-0.5 rounded-[6px]">
-                v1.1.0
+              <span className="text-[11px] font-semibold text-[#00ba78] bg-[#00ba78]/10 px-2 py-0.5 rounded-[6px]">
+                v1.1.3
               </span>
             </div>
           </div>
@@ -217,7 +217,7 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
                     scope
                   </UniqText>
                 </div>
-                <span className="text-[10px] text-[rgb(90,105,99)] font-mono">v1.1.0</span>
+                <span className="text-[10px] text-[rgb(90,105,99)] font-medium">v1.1.3</span>
               </div>
             </aside>
           </div>
@@ -285,7 +285,7 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
                   scope
                 </UniqText>
               </div>
-              <span className="text-[10px] text-[rgb(90,105,99)] font-mono">v1.1.0</span>
+              <span className="text-[10px] text-[rgb(90,105,99)] font-medium">v1.1.3</span>
             </div>
           </aside>
 

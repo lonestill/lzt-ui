@@ -72,21 +72,21 @@ export default function TableDocPage() {
       <TableCell className="font-medium text-white">Пополнение баланса</TableCell>
       <TableCell>Платеж</TableCell>
       <TableCell className="text-[rgb(140,162,154)]">Сегодня, в 14:20</TableCell>
-      <TableCell className="text-right font-mono font-bold text-[#00ba78]">+ 1 500 ₽</TableCell>
+      <TableCell className="text-right font-semibold tabular-nums text-[#00ba78]">+ 1 500 ₽</TableCell>
     </TableRow>
     <TableRow>
       <TableCell><Checkbox /></TableCell>
       <TableCell className="font-medium text-white">Покупка аккаунта #265913</TableCell>
       <TableCell>Маркет</TableCell>
       <TableCell className="text-[rgb(140,162,154)]">Вчера, в 22:15</TableCell>
-      <TableCell className="text-right font-mono font-bold text-white">- 350 ₽</TableCell>
+      <TableCell className="text-right font-semibold tabular-nums text-white">- 350 ₽</TableCell>
     </TableRow>
     <TableRow>
       <TableCell><Checkbox /></TableCell>
       <TableCell className="font-medium text-white">Вывод средств на карту</TableCell>
       <TableCell>Вывод</TableCell>
       <TableCell className="text-[rgb(140,162,154)]">22 окт 2026</TableCell>
-      <TableCell className="text-right font-mono font-bold text-[rgb(241,56,56)]">- 5 000 ₽</TableCell>
+      <TableCell className="text-right font-semibold tabular-nums text-[rgb(241,56,56)]">- 5 000 ₽</TableCell>
     </TableRow>
   </TableBody>
 </Table>`;
@@ -134,7 +134,7 @@ export default function TableDocPage() {
                   </TableCell>
                   <TableCell>Платеж</TableCell>
                   <TableCell className="text-[rgb(140,162,154)]">Сегодня, в 14:20</TableCell>
-                  <TableCell className="text-right font-mono font-bold text-[#00ba78]">
+                  <TableCell className="text-right font-semibold tabular-nums text-[#00ba78]">
                     + 1 500 ₽
                   </TableCell>
                 </TableRow>
@@ -148,7 +148,7 @@ export default function TableDocPage() {
                   </TableCell>
                   <TableCell>Маркет</TableCell>
                   <TableCell className="text-[rgb(140,162,154)]">Вчера, в 22:15</TableCell>
-                  <TableCell className="text-right font-mono font-bold text-white">
+                  <TableCell className="text-right font-semibold tabular-nums text-white">
                     - 350 ₽
                   </TableCell>
                 </TableRow>
@@ -162,7 +162,7 @@ export default function TableDocPage() {
                   </TableCell>
                   <TableCell>Вывод</TableCell>
                   <TableCell className="text-[rgb(140,162,154)]">22 окт 2026</TableCell>
-                  <TableCell className="text-right font-mono font-bold text-[rgb(241,56,56)]">
+                  <TableCell className="text-right font-semibold tabular-nums text-[rgb(241,56,56)]">
                     - 5 000 ₽
                   </TableCell>
                 </TableRow>

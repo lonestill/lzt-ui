@@ -145,7 +145,7 @@ export default function InputDocPage() {
       value={priceFrom}
       onChange={(e) => setPriceFrom(e.target.value)}
       placeholder="Цена от"
-      className="pr-6 bg-[rgb(24,30,28)] border-0 text-center font-mono font-medium"
+      className="pr-6 bg-[rgb(24,30,28)] text-center font-semibold tabular-nums"
     />
     <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-[rgb(140,162,154)]">
       ₽
@@ -158,7 +158,7 @@ export default function InputDocPage() {
       value={priceTo}
       onChange={(e) => setPriceTo(e.target.value)}
       placeholder="до"
-      className="pr-6 bg-[rgb(24,30,28)] border-0 text-center font-mono font-medium"
+      className="pr-6 bg-[rgb(24,30,28)] text-center font-semibold tabular-nums"
     />
     <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-[rgb(140,162,154)]">
       ₽
@@ -211,7 +211,7 @@ export default function InputDocPage() {
                     value={priceFrom}
                     onChange={(e) => setPriceFrom(e.target.value)}
                     placeholder="Цена от"
-                    className="pr-6 bg-[rgb(24,30,28)] border-0 text-center font-mono font-medium"
+                    className="pr-6 bg-[rgb(24,30,28)] text-center font-semibold tabular-nums"
                   />
                   <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-[rgb(140,162,154)]">
                     ₽
@@ -224,7 +224,7 @@ export default function InputDocPage() {
                     value={priceTo}
                     onChange={(e) => setPriceTo(e.target.value)}
                     placeholder="до"
-                    className="pr-6 bg-[rgb(24,30,28)] border-0 text-center font-mono font-medium"
+                    className="pr-6 bg-[rgb(24,30,28)] text-center font-semibold tabular-nums"
                   />
                   <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs text-[rgb(140,162,154)]">
                     ₽

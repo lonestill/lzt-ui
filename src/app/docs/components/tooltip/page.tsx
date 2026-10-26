@@ -83,7 +83,7 @@ export default function TooltipDocPage() {
   const statusTipCode = `<div className="flex flex-wrap items-center gap-5">
   <div className="flex items-center gap-2 px-3 py-1.5 rounded-[8px] bg-[rgb(24,30,28)] border border-[rgb(36,47,43)] text-xs">
     <span className="text-[rgb(140,162,154)]">Логин аккаунта:</span>
-    <span className="font-mono text-[rgb(245,245,245)] font-medium">auto_reg_user_99</span>
+    <span className="text-[rgb(245,245,245)] font-medium">auto_reg_user_99</span>
     <CopyButton text="auto_reg_user_99" />
   </div>
 
@@ -161,7 +161,7 @@ export default function TooltipDocPage() {
           <div className="flex flex-wrap items-center gap-5 p-6 rounded-[12px] bg-[rgb(17,22,21)] border border-[rgb(30,39,37)] shadow-xl">
             <div className="flex items-center gap-2 px-3 py-1.5 rounded-[8px] bg-[rgb(24,30,28)] border border-[rgb(36,47,43)] text-xs">
               <span className="text-[rgb(140,162,154)]">Логин аккаунта:</span>
-              <span className="font-mono text-[rgb(245,245,245)] font-medium">auto_reg_user_99</span>
+              <span className="text-[rgb(245,245,245)] font-medium">auto_reg_user_99</span>
               <CopyButton text="auto_reg_user_99" />
             </div>
 

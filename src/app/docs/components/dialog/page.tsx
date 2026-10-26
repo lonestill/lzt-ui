@@ -84,7 +84,7 @@ export default function DialogDocPage() {
     <DialogBody className="space-y-3 text-xs">
       <div className="flex justify-between items-center py-2 border-b border-[rgb(30,39,37)]">
         <span className="text-[rgb(140,162,154)]">Сумма к оплате:</span>
-        <span className="font-mono font-bold text-white text-sm">199 ₽</span>
+        <span className="font-bold text-white text-sm tabular-nums">199 ₽</span>
       </div>
       <div className="space-y-1.5 pt-1">
         <label className="text-[rgb(140,162,154)] block">Промокод на скидку:</label>
@@ -139,7 +139,7 @@ export default function DialogDocPage() {
                 <DialogBody className="space-y-3 text-xs">
                   <div className="flex justify-between items-center py-2 border-b border-[rgb(30,39,37)]">
                     <span className="text-[rgb(140,162,154)]">Сумма к оплате:</span>
-                    <span className="font-mono font-bold text-white text-sm">199 ₽</span>
+                    <span className="font-bold text-white text-sm tabular-nums">199 ₽</span>
                   </div>
                   <div className="space-y-1.5 pt-1">
                     <label className="text-[rgb(140,162,154)] block">Промокод на скидку:</label>

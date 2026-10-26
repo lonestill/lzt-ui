@@ -54,7 +54,7 @@ const COMPONENT_DESCRIPTIONS = {
 };
 
 function banner() {
-  let version = "1.1.2";
+  let version = "1.1.3";
   try {
     version = require("../package.json").version || version;
   } catch {}

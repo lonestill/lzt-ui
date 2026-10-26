@@ -34,8 +34,8 @@ export default function Home() {
             <span className="font-semibold text-sm tracking-tight text-[rgb(245,245,245)]">
               lzt<span className="text-[#00ba78]">/ui</span>
             </span>
-            <span className="text-[10px] font-mono text-[rgb(140,162,154)] px-1.5 py-0.5 rounded-[4px] bg-[rgb(24,30,28)] border border-[rgb(36,47,43)]">
-              v1.1.0
+            <span className="text-[10px] font-medium text-[rgb(140,162,154)] px-1.5 py-0.5 rounded-[4px] bg-[rgb(24,30,28)] border border-[rgb(36,47,43)]">
+              v1.1.3
             </span>
           </Link>
 
